@@ -3,3 +3,52 @@
 
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* 最初の答え方 */
+/* .q1-div {
+  width: 260px;
+  padding: 20px;
+  background-color: #3274ae;
+  float: left;
+} */
+
+/* .q1-div:first-child {
+  margin-right: 30px;
+}
+
+.q1-div:last-child {
+  margin-left: 30px;
+} */
+
+/* .q1-p {
+  background-color: #eaf4ff;
+  border: 10px solid;
+  padding: 20px;
+} */
+
+/* answer見た後 */
+
+.q1-div {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #3274ae;
+  float: left;
+  margin-left: 30px;
+}
+
+.q1-div:first-child {
+  margin: 0;
+}
+
+.q1-p {
+  background-color: #eaf4ff;
+  border: 10px solid;
+  padding: 20px;
+}

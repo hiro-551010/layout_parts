@@ -3,3 +3,61 @@
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
+
+/* block要素にtext-alignを設定し、その中の要素をinlineにする */
+.q4-text-align {
+  text-align: center;
+}
+
+.q4-text-align p {
+  display: inline;
+}
+
+.q4-margin {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* http://site.oukasei.com/?p=948 */
+.q4-table {
+  display: table;
+  text-align: center;
+}
+
+.q4-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q4-inline {
+  display: inline-block;
+}
+
+/* https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet */
+.q4-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q4-position {
+  position: relative;
+}
+
+/* https://cotodama.co/position-absolute-center/ */
+.q4-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* https://arts-factory.net/position/ */
+.q4-transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
