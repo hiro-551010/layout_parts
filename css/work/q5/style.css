@@ -3,3 +3,18 @@
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q5-float {
+  float: left;
+  width: 400px;
+}
+
+.q5-float:first-child {
+  margin-right: 50px;
+}

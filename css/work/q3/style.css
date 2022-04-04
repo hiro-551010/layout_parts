@@ -36,7 +36,8 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   z-index: 2;
   position: absolute;
   top: 120px;
-  left: 280px;
+  /* left: 280px; */
+  right: 120px;
 }
 
 .div-3 {
@@ -44,22 +45,26 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   z-index: 3;
   position: absolute;
   top: 200px;
-  left: 360px;
+  /* left: 360px; */
+  right: 40px;
 }
 
 .div-4 {
   background-color: #8b7a5e;
   z-index: 4;
   position: absolute;
-  top: 280px;
-  left: 280px;
+  /* top: 280px; */
+  bottom: 120px;
+  /* left: 280px; */
+  right: 120px;
 }
 
 .div-5 {
   background-color: #9fd6d2;
   z-index: 5;
   position: absolute;
-  top: 360px;
+  /* top: 360px; */
+  bottom: 40px;
   left: 200px;
 }
 
@@ -67,7 +72,8 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   background-color: #fffee4;
   z-index: 6;
   position: absolute;
-  top: 280px;
+  /* top: 280px; */
+  bottom: 120px;
   left: 120px;
 }
 
@@ -102,4 +108,11 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
 .div-num {
   font-size: 30px;
   font-weight: bold;
+}
+
+.q3-page-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
 }
