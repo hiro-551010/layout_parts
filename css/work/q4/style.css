@@ -10,7 +10,7 @@ q5のcssはq5フォルダの中のcssファイルに記述してください */
 }
 
 .q4-text-align p {
-  display: inline;
+  display: inline-block;
 }
 
 .q4-margin {

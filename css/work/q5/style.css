@@ -4,12 +4,8 @@
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
 
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both;
-}
 
+/* 5-1 */
 .q5-float {
   float: left;
   width: 400px;
@@ -17,4 +13,40 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
 
 .q5-float:first-child {
   margin-right: 50px;
+}
+
+/* 5-2 */
+.q5-table {
+  display: table-cell;
+  width: 400px;
+}
+
+/* 5-3 */
+.q5-inline {
+  display: inline-block;
+  width: 400px;
+}
+
+.q5-inline:first-child {
+  margin-right: 50px;
+}
+
+/* 5-4 */
+.q5-flex-wrap {
+  display: flex;
+}
+
+.q5-flex-item:first-child {
+  margin-right: 50px;
+}
+
+/* 5-5 */
+.q5-calc-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 5-6 */
+.q5-calc-item {
+  width: calc(30%);
 }

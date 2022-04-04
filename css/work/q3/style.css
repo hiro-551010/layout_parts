@@ -24,81 +24,74 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   position: absolute;
 }
 
+/* z-indexは10ずつ */
 .div-1 {
   background-color: #ffefd3;
-  z-index: 1;
+  z-index: 10;
   top: 40px;
   left: 200px;
 }
 
 .div-2 {
   background-color: #7084de;
-  z-index: 2;
-  position: absolute;
+  z-index: 20;
   top: 120px;
-  /* left: 280px; */
+  
   right: 120px;
 }
 
 .div-3 {
   background-color: #d0ecea;
-  z-index: 3;
-  position: absolute;
+  z-index: 30;
   top: 200px;
-  /* left: 360px; */
+  
   right: 40px;
 }
 
 .div-4 {
   background-color: #8b7a5e;
-  z-index: 4;
-  position: absolute;
-  /* top: 280px; */
+  z-index: 40;
+  
   bottom: 120px;
-  /* left: 280px; */
+  
   right: 120px;
 }
 
 .div-5 {
   background-color: #9fd6d2;
-  z-index: 5;
-  position: absolute;
-  /* top: 360px; */
+  z-index: 50;
+  
   bottom: 40px;
   left: 200px;
 }
 
 .div-6 {
   background-color: #fffee4;
-  z-index: 6;
-  position: absolute;
-  /* top: 280px; */
+  z-index: 60;
+  
   bottom: 120px;
   left: 120px;
 }
 
 .div-7 {
   background-color: #deae70;
-  z-index: 7;
-  position: absolute;
+  z-index: 80;
   top: 200px;
   left: 40px;
 }
 
 .div-8 {
   background-color: #de70cf;
-  z-index: 8;
-  position: absolute;
+  z-index: 70;
   top: 120px;
   left: 120px;
 }
 
 .div-8::after {
   content: "";
-  position: absolute;
   bottom: 80px;
   left: 80px;
-  z-index: 10;
+  z-index: 90;
   box-sizing: border-box;
   width: 20px;
   height: 20px;
