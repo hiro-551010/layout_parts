@@ -98,3 +98,8 @@ q4のcssはq4フォルダの中のcssファイルに記述してください */
   height: 20px;
   background-color: #ffefd3;
 }
+
+.div-num {
+  font-size: 30px;
+  font-weight: bold;
+}

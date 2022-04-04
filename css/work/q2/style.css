@@ -43,7 +43,7 @@ q3のcssはq3フォルダの中のcssファイルに記述してください*/
   background-color: #2244aa;
 } */
 
-.layout-table tr:nth-child(2n-1) {
+.layout-table tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
