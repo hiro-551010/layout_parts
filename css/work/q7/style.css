@@ -28,7 +28,7 @@
   white-space: pre;
 }
 
-.q7-balloon::before{
+.q7-balloon::before, .q7-balloon::after {
   content: '';
   position: absolute;
   display: block;
@@ -41,7 +41,13 @@
   border-bottom: 30px solid transparent;
 }
 
-.q7-balloon::after{
+.q7-balloon::after {
+  content: '';
+  left: -22px;
+  border-right-color: #fff;
+}
+
+/* .q7-balloon::after {
   content: '';
   position: absolute;
   display: block;
@@ -52,4 +58,4 @@
   border-right: 30px solid #fff;
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
-}
+} */

@@ -50,6 +50,8 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
   position: absolute;
   bottom: 0;
   padding: 20px;
+  text-align: justify;
+  word-break: break-all;
 }
 
 .q6-text:hover .q6-anime-text-wrap{
@@ -80,7 +82,7 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
 
 .q6-loop-anime p {
   animation: scrollLoop 10s linear infinite backwards;
-  font-size: 128px;
+  font-size: 200px;
 }
 
 @keyframes scrollLoop {
