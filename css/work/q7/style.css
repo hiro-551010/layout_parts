@@ -25,7 +25,7 @@
 
 .q7-balloon p {
   font-size: 16px;
-  white-space: pre;
+  word-break: break-all;
 }
 
 .q7-balloon::before, .q7-balloon::after {

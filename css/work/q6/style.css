@@ -15,6 +15,7 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
   height: 200px;
   margin-right: 50px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .q6-img-wrap:last-child {
@@ -50,7 +51,6 @@ q7のcssはq7フォルダの中のcssファイルに記述してください */
   position: absolute;
   bottom: 0;
   padding: 20px;
-  text-align: justify;
   word-break: break-all;
 }
 
